@@ -11,17 +11,17 @@ import java.util.Map;
  * <p>The following schema fragment specifies the expected content contained within this class.
  *
  * <pre>
- * &lt;complexType name="AuthHeader">
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="Username" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Password" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *       &lt;/sequence>
- *       &lt;anyAttribute/>
- *     &lt;/restriction>
- *   &lt;/complexContent>
- * &lt;/complexType>
+ * &lt;complexType name="AuthHeader"&gt;
+ *   &lt;complexContent&lt;
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&lt;
+ *       &lt;sequence&lt;
+ *         &lt;element name="Username" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&lt;
+ *         &lt;element name="Password" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&lt;
+ *       &lt;/sequence&lt;
+ *       &lt;anyAttribute/&lt;
+ *     &lt;/restriction&lt;
+ *   &lt;/complexContent&lt;
+ * &lt;/complexType&lt;
  * </pre>
  */
 @XmlAccessorType(XmlAccessType.FIELD)
