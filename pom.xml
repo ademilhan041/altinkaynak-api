@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.acarsan.fx</groupId>
+  <groupId>io.github.ademilhan041</groupId>
   <artifactId>altinkaynak-api</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
@@ -13,7 +13,7 @@
   <description>Api for retrieving currencies from AltinKaynak</description>
 
   <properties>
-    <java.version>17</java.version>
+    <java.version>8</java.version>
     <jaxws.version>2.2.8</jaxws.version>
   </properties>
 
