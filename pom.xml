@@ -13,15 +13,19 @@
   <description>Api for retrieving currencies from AltinKaynak</description>
 
   <properties>
-    <java.version>8</java.version>
-    <jaxws.version>2.2.8</jaxws.version>
+    <java.version>17</java.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+
+    <jaxws.version>2.3.1</jaxws.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>com.sun.xml.ws</groupId>
-      <artifactId>jaxws-rt</artifactId>
+      <artifactId>jaxws-ri</artifactId>
       <version>${jaxws.version}</version>
+      <type>pom</type>
     </dependency>
   </dependencies>
 
@@ -98,7 +102,7 @@
   <licenses>
     <license>
       <name>The Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
     </license>
   </licenses>
 
